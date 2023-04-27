@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/3fa854029c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>My Portfolio</title>
+
+</head>
+
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-sm   navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tehila Tal <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-section">About Me</a>
+                </li>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#work-section">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-section">Contact</a>
+                </li>
+
+            </ul>
+            <div class="social-part">
+                <a href="https://github.com/Tehila03"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+            </div>
+        </div>
+    </nav>
+
+    <section id="about-section" class="pt-5 pb-5">
+        <div class="container wrapabout">
+            <div class="red"></div>
+            <div class="row">
+                <div class="col-lg-6 align-items-center justify-content-left d-flex mb-5 mb-lg-0">
+                    <div class="blockabout">
+                        <div class="blockabout-inner text-center text-sm-start">
+                            <div class="title-big pb-3 mb-3">
+                                <h3>ABOUT ME</h3>
+                            </div>
+                            <p class="description-p text-muted pe-0 pe-lg-0">
+                                Hi, my name is Tehila.
+                            </p>
+                            <p class="description-p text-muted pe-0 pe-lg-0">I am currently enrolled in the UM Bootcamp program. I was always intrested in the intelligence of technology. I have a few startup ideas that I would like to pursue but I never had the chance to get professional training.  </p>
+                            <div class="sosmed-horizontal pt-3 pb-3">
+                                <a href="https://github.com/Tehila03"><i class="fa fa-github"></i></a>
+                            </div>
+                            <a href="#" class="btn rey-btn mt-3">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <figure class="potoaboutwrap">
+                        <img id="me-img" src="assets/img/ME.jpg" potoabout />
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work-section">
+        <div class="card blockabout">
+            <div class="card-body blockabout-inner">
+                <h1>My Work</h1>
+                <p>Check out my latest projects!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card blockabout">
+                    <img class="card-img-top" src="assets/img/quiz.png" Card image cap">
+                    <div class="card-body blockabout-inner">
+                        <h5 class="card-title">Coding Quiz</h5>
+                        <p class="card-text">Test your knowledge of basic HTML, CSS, and JavaScript by taking my
+                            multiple choice, time-sensitive quiz! </p>
+                        <a href="https://github.com/Tehila03/Code-Quiz#code-quiz" class="btn btn-primary">GitHub
+                            Repo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card blockabout">
+                    <img class="card-img-top" src="assets/img/password.png" alt="Card image cap">
+                    <div class="card-body blockabout-inner">
+                        <h5 class="card-title">Password Generator</h5>
+                        <p class="card-text">If you are in a need of a new secure password, then can click the button to
+                            generate a new safe password.</p>
+                        <a href="https://github.com/Tehila03/Password-Generator" class="btn btn-primary">GitHub
+                            Repo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card blockabout">
+                    <img class="card-img-top" src="assets/img/social-media-marketing copy.jpg" alt="Card image cap">
+                    <div class="card-body blockabout-inner">
+                        <h5 class="card-title">Horiseon Marketing</h5>
+                        <p class="card-text">HTML CSS - Code Refactor
+
+                            This project aimed to refactor Horiseon's existing web application in an effort to increase accessibility for users.</p>
+                        <a href="https://github.com/Tehila03/Horiseon-Marketing" class="btn btn-primary">GitHub Repo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact-section">
+        <div class="form-box">
+            <h1>Let's Connect</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input class="form-control" id="name" type="text" name="Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" id="email" type="email" name="Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="Message"></textarea>
+                </div>
+                <input class="btn btn-primary" type="submit" value="Submit" />
+        </div>
+        </form>
+    </section>
+</body>
+
+</html>
